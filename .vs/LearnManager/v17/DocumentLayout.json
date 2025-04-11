@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\controllers\\apprenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\controllers\\apprenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\admin\\manageformateurs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\admin\\manageformateurs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\admin\\managefinancier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\admin\\managefinancier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\controllers\\formateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\controllers\\formateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\admin\\addformateur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\admin\\addformateur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\admin\\manageapprenant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\admin\\manageapprenant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\admin\\manageformations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\admin\\manageformations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/TestDatabaseConnection/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\controllers\\financiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\controllers\\financiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\apprenant\\showformations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\apprenant\\showformations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\apprenant\\apprenantdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\apprenant\\apprenantdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\financier\\financierdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\financier\\financierdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|c:\\users\\ing.nedia\\desktop\\learnmanager\\learnmanager\\views\\formateur\\formateurdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C58E7C-8AB8-464C-BE99-3F2D6FC20257}|LearnManager\\LearnManager.csproj|solutionrelative:learnmanager\\views\\formateur\\formateurdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\appsettings.json",
+              "RelativeDocumentMoniker": "LearnManager\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\appsettings.json",
+              "RelativeToolTip": "LearnManager\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T17:42:10.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddFormateur.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\AddFormateur.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Admin\\AddFormateur.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\AddFormateur.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Admin\\AddFormateur.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T07:34:02.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManageApprenant.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\ManageApprenant.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Admin\\ManageApprenant.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\ManageApprenant.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Admin\\ManageApprenant.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T07:06:32.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageFinancier.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\ManageFinancier.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Admin\\ManageFinancier.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\ManageFinancier.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Admin\\ManageFinancier.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T07:06:10.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FinancierController.cs",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\FinancierController.cs",
+              "RelativeDocumentMoniker": "LearnManager\\Controllers\\FinancierController.cs",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\FinancierController.cs",
+              "RelativeToolTip": "LearnManager\\Controllers\\FinancierController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:42:14.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormateurController.cs",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\FormateurController.cs",
+              "RelativeDocumentMoniker": "LearnManager\\Controllers\\FormateurController.cs",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\FormateurController.cs",
+              "RelativeToolTip": "LearnManager\\Controllers\\FormateurController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:41:47.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApprenantController.cs",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\ApprenantController.cs",
+              "RelativeDocumentMoniker": "LearnManager\\Controllers\\ApprenantController.cs",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\ApprenantController.cs",
+              "RelativeToolTip": "LearnManager\\Controllers\\ApprenantController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:36:19.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T06:30:02.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "LearnManager\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "LearnManager\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:24:05.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ShowFormations.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Apprenant\\ShowFormations.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Apprenant\\ShowFormations.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Apprenant\\ShowFormations.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Apprenant\\ShowFormations.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T06:19:13.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Services\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LearnManager\\Services\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Services\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LearnManager\\Services\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:07:40.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/TestDatabaseConnection/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/TestDatabaseConnection/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-03T06:04:24.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ManageFormations.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\ManageFormations.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Admin\\ManageFormations.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\ManageFormations.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Admin\\ManageFormations.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T05:55:50.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageFormateurs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\ManageFormateurs.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Admin\\ManageFormateurs.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\ManageFormateurs.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Admin\\ManageFormateurs.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAIBJwEcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T05:55:21.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAIBJwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T05:52:12.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Program.cs",
+              "RelativeDocumentMoniker": "LearnManager\\Program.cs",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Program.cs",
+              "RelativeToolTip": "LearnManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:50:47.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FinancierDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Financier\\FinancierDashboard.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Financier\\FinancierDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Financier\\FinancierDashboard.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Financier\\FinancierDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T05:29:43.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApprenantDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Apprenant\\ApprenantDashboard.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Apprenant\\ApprenantDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Apprenant\\ApprenantDashboard.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Apprenant\\ApprenantDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T05:29:10.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormateurDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Formateur\\FormateurDashboard.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Formateur\\FormateurDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Formateur\\FormateurDashboard.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Formateur\\FormateurDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T05:27:20.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LearnManager\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LearnManager\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:24:57.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "LearnManager\\Views\\Admin\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeToolTip": "LearnManager\\Views\\Admin\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T05:23:56.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "LearnManager\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "LearnManager\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:19:47.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
