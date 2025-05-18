@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\382e6924-37b3-49ed-bdc0-1f218cd3b54e.png",
+      "PackagePath": "staticwebassets\\images\\382e6924-37b3-49ed-bdc0-1f218cd3b54e.png"
+    },
+    {
+      "Id": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\8c471126-fe2b-47d1-80e3-5b69e7841507.png",
+      "PackagePath": "staticwebassets\\images\\8c471126-fe2b-47d1-80e3-5b69e7841507.png"
+    },
+    {
+      "Id": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\acc2.jpg",
+      "PackagePath": "staticwebassets\\images\\acc2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\digital-marketing-5816304_1280.jpg",
+      "PackagePath": "staticwebassets\\images\\digital-marketing-5816304_1280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\securité.jpg",
+      "PackagePath": "staticwebassets\\images\\securité.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\web-dev.jpg",
+      "PackagePath": "staticwebassets\\images\\web-dev.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

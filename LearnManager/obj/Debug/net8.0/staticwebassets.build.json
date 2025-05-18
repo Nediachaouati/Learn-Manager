@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZXI+QSg3E+pgijepQ3pPHyE1J/rSRSaIPeX+5MQu49I=",
+  "Hash": "R5RYevIcsmu0KnhiA6wROEdbiVl0/E3+PrrOQpgoDA8=",
   "Source": "LearnManager",
   "BasePath": "_content/LearnManager",
   "Mode": "Default",
@@ -99,6 +99,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\382e6924-37b3-49ed-bdc0-1f218cd3b54e.png",
+      "SourceId": "LearnManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\",
+      "BasePath": "_content/LearnManager",
+      "RelativePath": "images/382e6924-37b3-49ed-bdc0-1f218cd3b54e#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y8ntrglct6",
+      "Integrity": "DlqgmJF70KbfEfzDgFmUs6UgpIiPBJQ2zOpi4RKXOYU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\382e6924-37b3-49ed-bdc0-1f218cd3b54e.png"
+    },
+    {
+      "Identity": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\8c471126-fe2b-47d1-80e3-5b69e7841507.png",
+      "SourceId": "LearnManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\",
+      "BasePath": "_content/LearnManager",
+      "RelativePath": "images/8c471126-fe2b-47d1-80e3-5b69e7841507#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gvofyzw2zw",
+      "Integrity": "rHloB3wXABZ8vxqVmk2ymA/vdnoI4sWUN8uw57FEknI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\8c471126-fe2b-47d1-80e3-5b69e7841507.png"
+    },
+    {
+      "Identity": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\acc2.jpg",
+      "SourceId": "LearnManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\",
+      "BasePath": "_content/LearnManager",
+      "RelativePath": "images/acc2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cbylk5jdkg",
+      "Integrity": "+Nhg1aL3zoFVS4KqeKPhEOFVDsgOdAdNrz0RR7wvubI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\acc2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\digital-marketing-5816304_1280.jpg",
+      "SourceId": "LearnManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\",
+      "BasePath": "_content/LearnManager",
+      "RelativePath": "images/digital-marketing-5816304_1280#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z943khl94v",
+      "Integrity": "mb9L85wteu3ZeUD9KnAzTNU5rm8Tl6MsoMQaQjSxUjs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\digital-marketing-5816304_1280.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\securité.jpg",
+      "SourceId": "LearnManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\",
+      "BasePath": "_content/LearnManager",
+      "RelativePath": "images/securité#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bxog9ok6zb",
+      "Integrity": "0VSs2T2q7Y3TcwpqEeGMj+gXtlj79d+edt3NKFbxpD0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\securité.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\web-dev.jpg",
+      "SourceId": "LearnManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\",
+      "BasePath": "_content/LearnManager",
+      "RelativePath": "images/web-dev#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j09567zw2c",
+      "Integrity": "HdFu3lPLMoKbtyox72/JePOfDsS8Zyp+QSDbdNXD2aQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\web-dev.jpg"
     },
     {
       "Identity": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\js\\site.js",
@@ -1481,6 +1607,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/382e6924-37b3-49ed-bdc0-1f218cd3b54e.png",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\382e6924-37b3-49ed-bdc0-1f218cd3b54e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DlqgmJF70KbfEfzDgFmUs6UgpIiPBJQ2zOpi4RKXOYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 17:12:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DlqgmJF70KbfEfzDgFmUs6UgpIiPBJQ2zOpi4RKXOYU="
+        }
+      ]
+    },
+    {
+      "Route": "images/382e6924-37b3-49ed-bdc0-1f218cd3b54e.y8ntrglct6.png",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\382e6924-37b3-49ed-bdc0-1f218cd3b54e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DlqgmJF70KbfEfzDgFmUs6UgpIiPBJQ2zOpi4RKXOYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 17:12:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y8ntrglct6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/382e6924-37b3-49ed-bdc0-1f218cd3b54e.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DlqgmJF70KbfEfzDgFmUs6UgpIiPBJQ2zOpi4RKXOYU="
+        }
+      ]
+    },
+    {
+      "Route": "images/8c471126-fe2b-47d1-80e3-5b69e7841507.gvofyzw2zw.png",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\8c471126-fe2b-47d1-80e3-5b69e7841507.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHloB3wXABZ8vxqVmk2ymA/vdnoI4sWUN8uw57FEknI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 10:28:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gvofyzw2zw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/8c471126-fe2b-47d1-80e3-5b69e7841507.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHloB3wXABZ8vxqVmk2ymA/vdnoI4sWUN8uw57FEknI="
+        }
+      ]
+    },
+    {
+      "Route": "images/8c471126-fe2b-47d1-80e3-5b69e7841507.png",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\8c471126-fe2b-47d1-80e3-5b69e7841507.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHloB3wXABZ8vxqVmk2ymA/vdnoI4sWUN8uw57FEknI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 10:28:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHloB3wXABZ8vxqVmk2ymA/vdnoI4sWUN8uw57FEknI="
+        }
+      ]
+    },
+    {
+      "Route": "images/acc2.cbylk5jdkg.jpg",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\acc2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Nhg1aL3zoFVS4KqeKPhEOFVDsgOdAdNrz0RR7wvubI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 11:53:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cbylk5jdkg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/acc2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Nhg1aL3zoFVS4KqeKPhEOFVDsgOdAdNrz0RR7wvubI="
+        }
+      ]
+    },
+    {
+      "Route": "images/acc2.jpg",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\acc2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Nhg1aL3zoFVS4KqeKPhEOFVDsgOdAdNrz0RR7wvubI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 11:53:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Nhg1aL3zoFVS4KqeKPhEOFVDsgOdAdNrz0RR7wvubI="
+        }
+      ]
+    },
+    {
+      "Route": "images/digital-marketing-5816304_1280.jpg",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\digital-marketing-5816304_1280.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mb9L85wteu3ZeUD9KnAzTNU5rm8Tl6MsoMQaQjSxUjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 18:53:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mb9L85wteu3ZeUD9KnAzTNU5rm8Tl6MsoMQaQjSxUjs="
+        }
+      ]
+    },
+    {
+      "Route": "images/digital-marketing-5816304_1280.z943khl94v.jpg",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\digital-marketing-5816304_1280.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mb9L85wteu3ZeUD9KnAzTNU5rm8Tl6MsoMQaQjSxUjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 18:53:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z943khl94v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/digital-marketing-5816304_1280.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mb9L85wteu3ZeUD9KnAzTNU5rm8Tl6MsoMQaQjSxUjs="
+        }
+      ]
+    },
+    {
+      "Route": "images/securité.bxog9ok6zb.jpg",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\securité.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0VSs2T2q7Y3TcwpqEeGMj+gXtlj79d+edt3NKFbxpD0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 18:54:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bxog9ok6zb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/securité.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0VSs2T2q7Y3TcwpqEeGMj+gXtlj79d+edt3NKFbxpD0="
+        }
+      ]
+    },
+    {
+      "Route": "images/securité.jpg",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\securité.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0VSs2T2q7Y3TcwpqEeGMj+gXtlj79d+edt3NKFbxpD0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 18:54:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0VSs2T2q7Y3TcwpqEeGMj+gXtlj79d+edt3NKFbxpD0="
+        }
+      ]
+    },
+    {
+      "Route": "images/web-dev.j09567zw2c.jpg",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\web-dev.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HdFu3lPLMoKbtyox72/JePOfDsS8Zyp+QSDbdNXD2aQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 18:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j09567zw2c"
+        },
+        {
+          "Name": "label",
+          "Value": "images/web-dev.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HdFu3lPLMoKbtyox72/JePOfDsS8Zyp+QSDbdNXD2aQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/web-dev.jpg",
+      "AssetFile": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\wwwroot\\images\\web-dev.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HdFu3lPLMoKbtyox72/JePOfDsS8Zyp+QSDbdNXD2aQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 18:50:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HdFu3lPLMoKbtyox72/JePOfDsS8Zyp+QSDbdNXD2aQ="
         }
       ]
     },

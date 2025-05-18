@@ -10,6 +10,12 @@ namespace LearnManager.Services
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Formation> Formations { get; set; }
+        public DbSet<Inscription> Inscriptions { get; set; }
+
+        public DbSet<Depense> Depenses { get; set; }
+      
+
 
         public void SeedAdmin()
         {

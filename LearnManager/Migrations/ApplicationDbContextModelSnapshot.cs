@@ -22,6 +22,144 @@ namespace LearnManager.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("LearnManager.Models.Depense", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateDepense")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("FormateurId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("FormationId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Montant")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FormateurId");
+
+                    b.HasIndex("FormationId");
+
+                    b.ToTable("Depenses");
+                });
+
+            modelBuilder.Entity("LearnManager.Models.Formation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Categorie")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateDebut")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateFin")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Duree")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Format")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("FormateurId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Niveau")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Prix")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Titre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FormateurId");
+
+                    b.ToTable("Formations");
+                });
+
+            modelBuilder.Entity("LearnManager.Models.Inscription", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ApprenantId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DateInscription")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("FormationId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApprenantId");
+
+                    b.HasIndex("FormationId");
+
+                    b.ToTable("Inscriptions");
+                });
+
+            modelBuilder.Entity("LearnManager.Models.Temoignage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Contenu")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nom")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Note")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Temoignages");
+                });
+
             modelBuilder.Entity("LearnManager.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -34,32 +172,74 @@ namespace LearnManager.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nom")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Prenom")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Role")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("LearnManager.Models.Depense", b =>
+                {
+                    b.HasOne("LearnManager.Models.User", "Formateur")
+                        .WithMany()
+                        .HasForeignKey("FormateurId");
+
+                    b.HasOne("LearnManager.Models.Formation", "Formation")
+                        .WithMany()
+                        .HasForeignKey("FormationId");
+
+                    b.Navigation("Formateur");
+
+                    b.Navigation("Formation");
+                });
+
+            modelBuilder.Entity("LearnManager.Models.Formation", b =>
+                {
+                    b.HasOne("LearnManager.Models.User", "Formateur")
+                        .WithMany()
+                        .HasForeignKey("FormateurId");
+
+                    b.Navigation("Formateur");
+                });
+
+            modelBuilder.Entity("LearnManager.Models.Inscription", b =>
+                {
+                    b.HasOne("LearnManager.Models.User", "Apprenant")
+                        .WithMany("Inscriptions")
+                        .HasForeignKey("ApprenantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("LearnManager.Models.Formation", "Formation")
+                        .WithMany()
+                        .HasForeignKey("FormationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Apprenant");
+
+                    b.Navigation("Formation");
+                });
+
+            modelBuilder.Entity("LearnManager.Models.User", b =>
+                {
+                    b.Navigation("Inscriptions");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,8 +1,6 @@
-﻿using LearnManager.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using LearnManager.Models;
 using LearnManager.Services;
-using Microsoft.AspNetCore.Mvc;
-
-
 
 namespace LearnManager.Controllers
 {
@@ -34,7 +32,7 @@ namespace LearnManager.Controllers
                 }
 
                 user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
-                user.Role = "apprenant"; 
+                user.Role = "apprenant";
                 user.CreatedAt = DateTime.Now;
 
                 _context.Users.Add(user);
@@ -55,39 +53,55 @@ namespace LearnManager.Controllers
         [HttpPost]
         public IActionResult Login(string email, string password)
         {
+            // Journal pour débogage
+            Console.WriteLine($"Login attempt: Email={email}");
+
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
+            {
+                ViewBag.ErrorMessage = "Veuillez fournir un email et un mot de passe.";
+                Console.WriteLine("Login failed: Email or password is empty");
+                return View();
+            }
+
             var user = _context.Users.FirstOrDefault(u => u.Email == email);
             if (user != null && BCrypt.Net.BCrypt.Verify(password, user.Password))
             {
-                // Stocker l’état de connexion 
+                // Stocker les informations dans la session
                 HttpContext.Session.SetString("UserEmail", user.Email);
-                HttpContext.Session.SetString("UserRole", user.Role);
+                HttpContext.Session.SetString("UserRole", user.Role?.ToLower() ?? string.Empty);
+                HttpContext.Session.SetInt32("UserId", user.Id); // Ajout de UserId
 
-                switch (user.Role)
+                
+                Console.WriteLine($"Login successful: UserEmail={user.Email}, UserRole={user.Role?.ToLower()}, UserId={user.Id}");
+                Console.WriteLine($"Session after login: UserEmail={HttpContext.Session.GetString("UserEmail")}, UserRole={HttpContext.Session.GetString("UserRole")}, UserId={HttpContext.Session.GetInt32("UserId")}");
+
+                switch (user.Role?.ToLower())
                 {
+                   
                     case "admin":
-                        return RedirectToAction("AdminDashboard", "Admin"); 
+                        return RedirectToAction("ManageFormations", "Admin");
                     case "formateur":
-                        return RedirectToAction("FormateurDashboard", "Formateur");
+                        return RedirectToAction("ShowFormations", "Formateur");
+                    case "financier":
+                        return RedirectToAction("ManageDepenses", "Financier");
                     case "apprenant":
                         return RedirectToAction("ApprenantDashboard", "Apprenant");
-                    case "financier":
-                        return RedirectToAction("FinancierDashboard", "Financier");
                     default:
                         return RedirectToAction("Index", "Home");
                 }
             }
 
             ViewBag.ErrorMessage = "Email ou mot de passe incorrect.";
+            Console.WriteLine("Login failed: Invalid email or password");
             return View();
         }
+
         [HttpGet]
         public IActionResult Logout()
         {
-         
+            Console.WriteLine("Logout: Clearing session");
             HttpContext.Session.Clear();
             return RedirectToAction("Login");
         }
     }
 }
-
-    

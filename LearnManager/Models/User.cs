@@ -10,5 +10,7 @@
         public string? Phone { get; set; } 
         public string? Role { get; set; } 
         public DateTime CreatedAt { get; set; }
+
+        public List<Inscription> ?Inscriptions { get; set; }
     }
 }

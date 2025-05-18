@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dl7XWzH6CTk=",
+  "dgSpecHash": "1rDXHOyIum8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\LearnManager.csproj",
+  "projectFilePath": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\LearnManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ing.Nedia\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Ing.Nedia\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

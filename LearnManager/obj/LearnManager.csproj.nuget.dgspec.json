@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\LearnManager.csproj": {}
+    "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\LearnManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\LearnManager.csproj": {
+    "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\LearnManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\LearnManager.csproj",
+        "projectUniqueName": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\LearnManager.csproj",
         "projectName": "LearnManager",
-        "projectPath": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\LearnManager.csproj",
+        "projectPath": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\LearnManager.csproj",
         "packagesPath": "C:\\Users\\Ing.Nedia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ing.Nedia\\Desktop\\LearnManager\\LearnManager\\obj\\",
+        "outputPath": "C:\\Users\\Ing.Nedia\\desktop\\learnmanager\\learnmanager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -145,3 +145,4 @@ C:\Users\Ing.Nedia\Desktop\LearnManager\LearnManager\obj\Debug\net8.0\refint\Lea
 C:\Users\Ing.Nedia\Desktop\LearnManager\LearnManager\obj\Debug\net8.0\LearnManager.pdb
 C:\Users\Ing.Nedia\Desktop\LearnManager\LearnManager\obj\Debug\net8.0\LearnManager.genruntimeconfig.cache
 C:\Users\Ing.Nedia\Desktop\LearnManager\LearnManager\obj\Debug\net8.0\ref\LearnManager.dll
+C:\Users\Ing.Nedia\Desktop\LearnManager\learnmanager\obj\Debug\net8.0\LearnManager.sourcelink.json

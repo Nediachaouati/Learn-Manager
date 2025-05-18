@@ -1,8 +1,378 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model LearnManager.Models.ViewModels.HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Bienvenue sur LearnManager";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #F9FAFB;
+        color: #1F2937;
+    }
+
+    
+    .section-title {
+        font-size: 2.8rem;
+        font-weight: 800;
+        color: #000000; 
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 2rem;
+    }
+
+    
+    .hero {
+        position: relative;
+        background: url('/images/acc2.jpg') no-repeat center center/cover;
+        color: #FFFFFF;
+        padding: 120px 0;
+        text-align: center;
+        overflow: hidden;
+        background-blend-mode: overlay;
+    }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero .btn {
+            padding: 14px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+            .hero .btn:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            }
+
+  
+    .formations-section {
+        padding: 80px 0;
+        background-color: #FFFFFF;
+    }
+
+    .formation-card {
+        border: none;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .formation-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .formation-card img {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .formation-card .card-body {
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .formation-card .card-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #1E3A8A;
+        }
+
+        .formation-card .card-text {
+            font-size: 1rem;
+            color: #6B7280;
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+
+        .formation-card .btn {
+            background-color: #3B82F6;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+
+            .formation-card .btn:hover {
+                background-color: #1E3A8A;
+            }
+
+    
+    .features-section {
+        padding: 80px 0;
+        background-color: #F9FAFB;
+    }
+
+    .feature-card {
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-card svg {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 20px;
+            fill: #3B82F6;
+        }
+
+        .feature-card h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #1E3A8A;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            font-size: 1rem;
+            color: #6B7280;
+            flex-grow: 1;
+        }
+
+   
+    .categories-section {
+        padding: 80px 0;
+        background-color: #FFFFFF; 
+    }
+
+    .category-card {
+        position: relative;
+        border-radius: 15px;
+        overflow: hidden;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .category-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3); 
+            z-index: 1;
+        }
+
+        .category-card h4 {
+            position: relative;
+            z-index: 2;
+            font-size: 1.8rem;
+            font-weight: 600;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .category-card:hover {
+            transform: scale(1.05);
+        }
+
+    
+    .cta-section {
+        padding: 80px 0;
+        background: linear-gradient(45deg, #1E3A8A, #3B82F6);
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-section .btn {
+            padding: 14px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            background-color: #10B981;
+            border: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+            .cta-section .btn:hover {
+                background-color: #059669;
+                transform: translateY(-3px);
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            }
+</style>
+
+
+<section class="hero" data-aos="fade-up">
+    <div class="container">
+        <h1>Boostez votre carrière avec LearnManager</h1>
+        <p>Rejoignez des milliers d’apprenants et accédez à des formations conçues pour votre succès.</p>
+        <a href="/Formations" class="btn btn-primary me-3">Découvrir les formations</a>
+        <a href="/Account/Register" class="btn btn-outline-light">S’inscrire maintenant</a>
+    </div>
+</section>
+
+<!-- Formations Section -->
+<section class="formations-section" data-aos="fade-up">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Nos formations</h2>
+        <div class="row">
+            @foreach (var formation in Model.Formations)
+            {
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card formation-card" data-aos="fade-up" data-aos-delay="@(Model.Formations.ToList().IndexOf(formation) * 100)">
+                        <img src="@(formation.ImageUrl ?? "/images/default-formation.jpg")" class="card-img-top" alt="@formation.Titre">
+                        <div class="card-body">
+                            <h5 class="card-title">@formation.Titre</h5>
+                            <p class="card-text">@(formation.Description?.Length > 100 ? formation.Description.Substring(0, 100) + "..." : formation.Description)</p>
+                            <a href="/Formations/Details/@formation.Id" class="btn btn-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section" data-aos="fade-up">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Pourquoi choisir LearnManager ?</h2>
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                    <h4>Formateurs experts</h4>
+                    <p>Apprenez auprès des meilleurs experts du secteur.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <h4>Flexibilité totale</h4>
+                    <p>Formations en ligne ou en présentiel, à votre rythme.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                    <h4>Certifications reconnues</h4>
+                    <p>Obtenez des certificats pour booster votre carrière.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                    <h4>Support dédié</h4>
+                    <p>Une équipe disponible pour vous accompagner.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section class="categories-section" data-aos="fade-up">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Explorez nos catégories</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="/Formations?category=Developpement" class="category-card" style="background-image: url('/images/web-dev.jpg');" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Développement</h4>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="/Formations?category=Marketing" class="category-card" style="background-image: url('/images/digital-marketing-5816304_1280.jpg');" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Marketing</h4>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="/Formations?category=Sécurité" class="category-card" style="background-image: url('/images/securité.jpg');" data-aos="fade-up" data-aos-delay="300">
+                    <h4>Sécurité</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+}
